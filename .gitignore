@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+models/
+*.npy
+*.npz
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.claude/
+CLAUDE.md
+
+# Test fixture output files (large, from real calculations)
+tests/fixtures/*.out
+tests/fixtures/*.log
+tests/fixtures/*.json
+src/chem_copilot.egg-info/
+.venv/
